@@ -164,7 +164,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3.501793
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -188,7 +188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09, y: 0, z: -10}
+  m_LocalPosition: {x: -0.3, y: 0.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -346,7 +346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046700477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.3, y: 0.08, z: 0}
+  m_LocalPosition: {x: 13.03, y: 0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 1137643152}
   - component: {fileID: 1137643151}
   - component: {fileID: 1137643147}
+  - component: {fileID: 1137643148}
   m_Layer: 0
   m_Name: ChaussetteTourne
   m_TagString: Untagged
@@ -396,6 +397,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7, y: 7}
   m_EdgeRadius: 0
+--- !u!114 &1137643148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137643146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6e1fd68200e3e48852e87649e365ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1137643151
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -982,8 +995,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -738886633
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 430681379ef29ff4a93ca4e8605e1d69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1004,7 +1017,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093099339}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.68, y: 0.12, z: 0}
+  m_LocalPosition: {x: 3.93, y: 0.93, z: 0}
   m_LocalScale: {x: 5.368559, y: 1.719, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
