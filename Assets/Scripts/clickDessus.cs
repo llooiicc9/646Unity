@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class clickDessus : MonoBehaviour
 {
@@ -37,12 +39,22 @@ public class clickDessus : MonoBehaviour
 				//Déplacer camera
 				//transform.position += new Vector3(12,0);
 				Camera.main.transform.Translate(13,0,-10);
+
+                //Applique un délai pour changer de scène
+                DOVirtual.DelayedCall(5, GoToNextScene);
 			}			
 
 		}		
 			
     }
-	 
+
+    //méthode pour changer de scène
+	 void GoToNextScene()
+    {
+        SceneManager.LoadScene("Reward1");
+    }
+
+
 	void OnMouseOver()
     {
         //If your mouse hovers over the GameObject with the script attached, output this message
